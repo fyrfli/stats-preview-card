@@ -1,0 +1,49 @@
+/* generics */
+:root {
+    --purple-blue: hsl(228, 45%, 44%);
+    --very-dark-blue: hsl(233, 47%, 7%);
+    --dark-desaturated-blue: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --main-paragraph-white: hsla(0, 0%, 100%, 0.75);
+    --stat-heading-white: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Inter", sans-serif;
+}
+body {
+    margin: 2rem auto;
+}
+/* end generics */
+
+/* container */
+.container {
+    width: 375px;
+    margin: 12vh auto;
+}
+
+/* header */
+.header-image {
+    background: var(--soft-violet), url("../images/image-header-mobile.jpg");
+    height: 14rem;
+    /* debug */
+    border: 1px solid black;
+}
+
+/* footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: var(--purple-blue); 
+}
